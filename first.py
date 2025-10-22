@@ -29,7 +29,7 @@ st.markdown(
 st.title("三角洲干员 - 蜂医·数字档案")
 # Header
 st.header("罗伊*斯米 基础信息")
-image_path = "hajifeng.png"  # 替换为你D盘中实际的JPG图片路径，注意反斜杠要转义或用正斜杠
+image_path = "D:\\hajifeng.png"
 st.image(image_path, caption="D盘JPG图片展示", use_column_width=True)
 # Text
 st.text("代号：蜂医")
@@ -75,5 +75,6 @@ st.code(code, language="python")
 # Markdown 系统提示
 st.markdown("---")
 st.markdown("> 下一个任务将在**2145-10-10 08:00**开启，请提前准备「蜂群医疗单元」。\n> *系统状态：全链路稳定 | 档案已加密*")
+
 
 
